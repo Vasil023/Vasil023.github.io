@@ -318,3 +318,12 @@ footer{
   width: 27px;
   height: 34px;
 }
+
+
+@media (max-width: 768px){
+  .container{
+    width: 768px;
+    margin: auto;
+
+  }
+}
