@@ -326,11 +326,13 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
-@media (max-width: 768px){
+}
+
+@media (min-width: 1279px){
   .features__inner{
     position: relative;
     background-color: #81b3d2;
-    width: 256px;
+    width: 400px;
     height: 256px;
 
   }
