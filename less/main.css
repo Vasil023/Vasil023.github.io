@@ -63,12 +63,19 @@ body {
   background: url(../img/2-layers.png) no-repeat center;
   height: 518px;
 }
+.p {
+  background-position: 0 -170px;
+  height: 370px;
+}
 .header-img {
   text-align: center;
   padding-top: 78px;
 }
+.photo {
+  padding-top: 101px;
+}
 .intro {
-  margin-top: 51px;
+  margin-top: 5%;
   text-align: center;
   width: 490px;
   margin-left: auto;
@@ -81,6 +88,9 @@ body {
   font-weight: 700;
   line-height: 26px;
   text-transform: uppercase;
+}
+.ph {
+  font-size: 30px;
 }
 .intro-subtitle {
   font-family: "PT Sans";
@@ -264,4 +274,10 @@ body {
   margin-left: 11px;
   width: 27px;
   height: 34px;
+}
+.gallery {
+  padding-top: 77px;
+}
+.gallery-item img {
+  width: 100%;
 }
